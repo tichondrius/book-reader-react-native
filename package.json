@@ -1,22 +1,36 @@
 {
-	"name": "TruyenKhin",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"start": "node node_modules/react-native/local-cli/cli.js start",
-		"test": "jest"
-	},
-	"dependencies": {
-		"react": "16.0.0-alpha.6",
-		"react-native": "0.44.0"
-	},
-	"devDependencies": {
-		"babel-jest": "20.0.3",
-		"babel-preset-react-native": "1.9.2",
-		"jest": "20.0.3",
-		"react-test-renderer": "16.0.0-alpha.6"
-	},
-	"jest": {
-		"preset": "react-native"
-	}
+  "name": "TruyenKhin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-drawer": "^2.3.0",
+    "react-native-elevated-view": "0.0.4",
+    "react-native-fit-image": "^1.4.8",
+    "react-native-html-to-text": "0.0.5",
+    "react-native-htmlview": "^0.9.0",
+    "react-native-splash-screen": "^2.1.0",
+    "react-native-vector-icons": "^4.1.1",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "reactotron-react-native": "^1.12.1",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-persist": "^4.8.2",
+    "redux-saga": "^0.15.6"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.3",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
 }
